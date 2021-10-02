@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/CSS/css.css">
+	<link rel="stylesheet" type="text/css" href="resources/CSS/home.css">
+
+	<title>Home</title>
+
+</head>
+<body>
+		<div class="navmenu">
+		<div class="name">
+		<a href="index.html">My Website</a>
+		</div><div class="menu" id="menu" >
+            <a href = "gallary.html"> Gallary</a>
+            <a href = "education.html"> Education</a>
+            <a href = "quotations.html"> Quotes</a>
+            <a href = "projects.html"> Projects</a>
+            <a href = "favorites.html"> Favorites</a>
+            <a href = "contact.html"> Contact</a>
+        </div>
+        <div class="burger" id="burger">
+        	<div class="line1"></div>
+        	<div class="line2"></div>
+        	<div class="line3"></div>
+        </div>
+      </div>
+      <script src="resources/toggle.js"></script>
+    
+      <!-- ------------------------------------------- -->
+
+<div class="middle">
+	<h1 style="text-align: center;color: Black;">About Me</h1>
+	<hr>
+	<div class="center" style="margin: auto;">
+	<p style="font-size: 18px;">My Name is Syed Mehmood Shah and I belong from Charsadda. I am also the publisher of <a href = "https://camlense.com/" target="_blank">Camlense.com</a> which is a branding and recreational Site.<br> <a href = "education.html">Click Here</a> to know about my Education.</p>
+</div> 
+
+	<br>
+	<div class="container">
+	<div class="row">
+	<div>
+	<button id="btn1">Gallary</button><br></div>&nbsp;&nbsp;&nbsp;
+	<div>
+	<button id="btn2">Education</button><br></div></div>
+	<div class="row">
+	<div>
+	<button id="btn3">Favorites</button><br></div>&nbsp;&nbsp;&nbsp;
+	<div>
+	<button id="btn4">Projects</button><br></div></div>
+	<div class="row">
+		<div>
+	<button id="btn5">Quotations</button><br></div>&nbsp;&nbsp;&nbsp;
+	<div>
+	<button id="btn6">Contact</button></div></div>
+	<br>
+</div>
+</div>
+  <!-- ------------------------------------------- -->
+      <div class="footer">
+      	&copy;&nbsp;Website.com | All Rights Reserved. Developed by&nbsp;<a href="https://camlense.com/about/">Syed Mehmood Shah</a>
+      </div>
+</body>
+</html>
+<script type="text/javascript">
+
+	document.getElementById("btn1").onclick = function () {
+                    location.replace("gallary.html")
+                }
+    document.getElementById("btn2").onclick = function () {
+      location.replace("education.html")
+                }
+   document.getElementById("btn3").onclick = function () {
+    location.replace("favorites.html")
+                }
+	document.getElementById("btn4").onclick = function () {
+    location.replace("project.html")
+                }
+document.getElementById("btn5").onclick = function () {
+    location.replace("quotations.html")
+                }
+document.getElementById("btn6").onclick = function () {
+    location.replace("contact.html")
+                }
+
+</script>
+
+
+	

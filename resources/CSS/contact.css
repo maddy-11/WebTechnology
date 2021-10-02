@@ -1,0 +1,68 @@
+
+  h1{
+  	padding: 10px;
+	padding: 10px;
+  }
+  	.form{
+  	width:100%;
+	font-size: 17px;
+}
+.form input#edit{
+	width: 80%;
+	height: 40px;
+	margin: 0 auto -10px auto;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+}
+.form input#sub{
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: antiquewhite;
+	color: black;
+	border-radius: 5px;
+	border: solid 1px black;
+	display: block;
+	margin: auto;
+	}
+.form input#sub:hover{
+	background-color: black;
+	color: antiquewhite;
+	border-bottom: solid 2px red;
+}
+.message{
+	min-height: 120px;	
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	font-family: sans-serif;
+}
+
+.middle{
+	width: auto;
+	margin: 10px 20px 0 20px;
+	background-image: linear-gradient(white, yellow);
+	padding: 30px;
+	font-family: all;
+
+	}
+	.form form input#check{
+		width: 20px;
+		height: 20px;
+	}
+	form p{	
+		display: block;
+		justify-content: center;
+		text-align: center;
+	}
+	.chk{
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
