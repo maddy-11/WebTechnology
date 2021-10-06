@@ -1,12 +1,9 @@
 
-  h1{
-  	padding: 10px;
-	padding: 10px;
-  }
   	.form{
   	width:100%;
 	font-size: 17px;
 }
+
 .form input#edit{
 	width: 80%;
 	height: 40px;
@@ -43,14 +40,6 @@
 	font-family: sans-serif;
 }
 
-.middle{
-	width: auto;
-	margin: 10px 20px 0 20px;
-	background-image: linear-gradient(white, yellow);
-	padding: 30px;
-	font-family: all;
-
-	}
 	.form form input#check{
 		width: 20px;
 		height: 20px;
@@ -66,3 +55,10 @@
 		justify-content: center;
 		margin: auto;
 	}
+	  .container input::placeholder {
+  font-size: 16px;
+  color: grey; }
+/*======================*/
+h1{
+	font-family: sans-serif;
+}

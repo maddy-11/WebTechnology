@@ -3,13 +3,13 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>	</title>
-	<link rel="stylesheet" type="text/css" href="resources/CSS/css.css">
-	<link rel="stylesheet" type="text/css" href="resources/CSS/quotations.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+	<link rel="stylesheet" type="text/css" href="resources/CSS/css.css">
+	<link rel="stylesheet" type="text/css" href="resources/CSS/favorites.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-color: darkcyan;">
+<body style="background-color: #000;">
 	<div class="navmenu">
 		<div class="name">
 		<a href="index.html">My Website</a>
@@ -30,10 +30,13 @@
       <script src="resources/toggle.js"></script>
       <!-- ------------------------------------------- -->
       
-<div class="middle">
-	<h1 style="text-align: center;color: black;">My Favorites</h1><hr>
-	<section class="center">
-	<div>
+<section class="middle" style="height: auto;">
+
+	<div class="containerr">
+	<div class="bg">
+	<h1 style="text-align: center;color: #fff;">My Favorites</h1><hr>
+	 <div >
+	<div style="padding: 20px;">
 	<h2>My Hobbies </h2>
 	<ul>
 	<li>Programming</li>
@@ -45,21 +48,37 @@
 	</ul>
 </div>
 
-<div>
+<div style="padding:20px;">
 	
 	<h2>Favorite Movies</h2>
 	<p>Any New Movie with high Ratings :)</p><br>
 <h2>Favorite Sport</h2>
-	<p>Football</p>
-
-	
+	<li>Football</li>
+	<li>Badminton</li>
 </div>
-</section>
-</div><br><br><br><br>
-<!-- ------------------------------------------- -->
-      <div class="footer" >
-      	&copy;Website.com All Rights Reserved. Developed by&nbsp;<a href="https://camlense.com/about/">Syed Mehmood Shah</a>
+</div>
+</div>
+</div>
+	<div class="sidebar">
+      <h2 style="text-align: center; padding-bottom: 20px;">Sidebar</h2>
+      <form method='POST'>
+			<div class="flex">
+    	<div>
+  		<input type="text" name="search" id="srch" placeholder="Search on this Site"></div>
+  		<div>
+  		<button type="submit" id="submit" name="submit">
+    	<i class="fa fa-search"></i>
+			</button>
+  		</div>
+  		</div>
+      </div>
+      </section>
+
+
+
+  <!-- ------------------------------------------- -->
+      <div class="footer">
+      	&copy;Website.com | All Rights Reserved. Developed by&nbsp;<a href="https://camlense.com/about/">Syed Mehmood Shah</a>
       </div>
       <!-- ------------------------------------------- -->
-</body>
-</html>
+  </body>

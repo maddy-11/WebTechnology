@@ -1,20 +1,3 @@
-
-	.middle{
-	width: auto;
-	margin: 10px 20px 0 20px;
-	justify-content: center;
-	justify-items: center;
-	align-content: center;
-	align-items: center;
-	background-image: linear-gradient(white, yellow);
-	padding: 30px;
-	font-family: all;
-	}
-	.center{
-	    	width: auto;
-	    	font-size: 17px;
-	    	font-family: all;
-	    	display: flex;
-	    	flex-wrap: wrap;
-	    	justify-content: space-evenly;
-	    	background-color: rgba(247,243,242,.5); padding: 10px;	
+ol{
+	padding-left: 50px;
+}

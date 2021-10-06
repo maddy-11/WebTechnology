@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="resources/CSS/css.css">
 	<link rel="stylesheet" type="text/css" href="resources/CSS/contact.css">
@@ -9,11 +10,12 @@
 	<title>Contact</title>
 
 </head>
-<body style="background: darkcyan;">
+<body style="background: black;">
 		<div class="navmenu">
 		<div class="name">
 		<a href="index.html">My Website</a>
 		</div><div class="menu" id="menu" >
+			<a href = "index.html"> Home</a>
             <a href = "gallary.html"> Gallary</a>
             <a href = "education.html"> Education</a>
             <a href = "quotations.html"> Quotes</a>
@@ -29,10 +31,13 @@
       </div>
       <script src="resources/toggle.js"></script>
       <!-- ------------------------------------------- -->
-      <div class="middle">
-      <h1>Contact Us</h1>
+      <section class="middle">
+      <div class="containerr">
+      <div class="bg">
+      <h1 style="display: block; width: 80%;margin: auto;">Contact Us</h1>
+      <hr>
       <div class="form">
-      	<form>
+      	<form >
       			<input type="text" name="name" placeholder=" Name" required id="edit"><br>
       			<input type="email" name="email" placeholder=" Email" required id="edit"><br>
       			<textarea class="message" placeholder="Enter You Message" required></textarea><br>
@@ -43,7 +48,23 @@
       			<input type="submit" name="submit" id="sub" required>
       	</form>
       </div>
-      </div><br><br>
+      </div>
+      </div>
+      <!-- ---------------------------------------------- -->
+      <div class="sidebar">
+      <h2 style="text-align: center; padding-bottom: 20px;">Sidebar</h2>
+      <form method='POST'>
+			<div class="flex">
+    	<div>
+  		<input type="text" name="search" id="srch" placeholder="Search on this Site"></div>
+  		<div>
+  		<button type="submit" id="submit" name="submit">
+    	<i class="fa fa-search"></i>
+			</button>
+  		</div>
+  		</div>
+      </div>
+  </section>
       
       			
       <!-- ------------------------------------------- -->

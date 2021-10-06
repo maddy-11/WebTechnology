@@ -1,0 +1,58 @@
+img{
+	width: 98%;
+
+}
+hr{
+	background: white;
+}
+.container a{
+	color: orange;
+}
+.img{
+	width: 60%;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	padding: 30px;
+}
+
+.project{
+	display: flex;
+}
+.project	 p{
+	font-weight: bold;
+}
+@media only screen and (max-width: 769px){
+	.img{
+	width: 95%;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	
+}
+
+.project{
+	display: flex;
+}
+h2{
+	font-size: 1.3em;
+}
+}
+@media only screen and (max-width: 550px){
+	.img{
+	width: 100%;
+}
+.project p{
+	font-weight: 400;
+	border-bottom: white solid 1px;
+}
+
+.project{
+	display: flex;
+	flex-direction: column;
+}
+h2{
+	font-size: 1em;
+	text-align: center;
+}
+}
